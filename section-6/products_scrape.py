@@ -22,9 +22,10 @@ driver = webdriver.Chrome(service=service, options=options)
 driver.get(website)
 
 xpath = '//*[@id="product-list-a11y-skiplink-target"]/span/ul'
-box = driver.find_element(By.XPATH, xpath)
+# box == ul_box == product_box
+product_box = driver.find_element(By.XPATH, xpath)
 
-products = box.find_elements(By.XPATH, f'{xpath}//li[contains(@class, "productListItem")]')
+products = product_box.find_elements(By.XPATH, f'{xpath}//li[contains(@class, "productListItem")]')
 
 # create a dataframe with the desired info
 title = []
