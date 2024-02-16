@@ -1,4 +1,4 @@
-# udemy webscraping bootcamp using python 
+# Udemy Webscraping Bootcamp Using Python 
 This is Udemy webscraping complete bootcamp using Python by Frank Andrade.
 The frameworks used are:
 - BeautifulSoup (bs4)
