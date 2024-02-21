@@ -1,0 +1,12 @@
+/Users/hajirufai/anaconda3/bin:
+/usr/local/bin:
+/usr/bin:
+/bin:
+/usr/sbin:/sbin:
+/usr/local/go/bin:
+/Users/hajirufai/anaconda3/bin:
+/Users/hajirufai/anaconda3/condabin:
+/Users/hajirufai/Library/Application Support/Coursier/bin
+
+
+# The second anaconda overrides usr/local/bin, thus changes the path of "which python3"
